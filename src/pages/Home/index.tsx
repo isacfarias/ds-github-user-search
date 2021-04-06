@@ -23,7 +23,7 @@ const Home = () => (
             </p>
         </div>
 
-        <Button />
+        <Button text="Começar" />
 
     </div>
 );

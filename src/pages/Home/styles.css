@@ -1,0 +1,32 @@
+.main-container {
+    margin-top: 117px;
+    margin-left: 120px;
+}
+
+.main-description {
+    margin-top: 24px;
+}
+
+.text-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+  
+}
+
+.text-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5a6774;
+    margin-bottom: 20px;
+}
+
+.subtitle-mail {
+    color: #51ABFE;
+}

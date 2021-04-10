@@ -3,11 +3,12 @@ import './styles.css';
 
 type Props = {
     text: string;
+    classes: string;
 }
 
-const Button = ({text}: Props) => (
+const Button = ({text, classes}: Props) => (
     <div >
-        <button className="btn-primary">
+        <button className={`${classes} btn-primary`}>
             <h5 className="btn-text">{text}</h5>
         </button>
     </div>
